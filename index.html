@@ -9,47 +9,101 @@
 </head>
 <body>
     <div class = "webpage">
-        <div class="sidebar">
-            <a>Dashboard</a>
-            <a>Home</a>
-            <a>Profile</a>
-            <a>Messages</a>
-            <a>History</a>
-            <a>Tasks</a>
-            <a>Communities</a>
-            <a>Settings</a>
-            <a>Support</a>
-            <a>Privacy</a>
-        </div>
+        <nav class="sidebar">
+            <div class="imgList">
+                <img src="./img/running.png">
+                <a>Dashboard</a>
+            </div>
+            <div class="imgList">    
+                <img src="./img/home.svg">
+                <a>Home</a>
+            </div>
+            <div class="imgList">
+                <img src="./img/user.png">
+                <a>Profile</a>
+            </div>
+            <div class="imgList">
+                <img src="./img/topic.png">
+                <a>Messages</a>
+            </div>
+            <div class="imgList">
+                <img src="./img/history.png">
+                <a>History</a>
+            </div>
+            <div class="imgList">
+                <img src="./img/tasks.png">
+                <a>Tasks</a>
+            </div>
+            <div class="imgList">
+                <img src="./img/group.png">
+                <a>Communities</a>
+            </div>
+            <br>
+            <div class="imgList">
+                <img src="./img/settings.png">
+                <a>Settings</a>
+            </div>
+            <div class="imgList">
+                <img src="./img/support.png">
+                <a>Support</a>
+            </div>
+            <div class="imgList">
+                <img src="./img/privacy.png">
+                <a>Privacy</a>
+            </div>
+        </nav>
         <header>
-            <form action ="">
-                <label for="search">Icon</label>
+            <div class="topLine">
+                <img class="topLineImg" src="./img/search.png">
                 <input type="'text" id="searchPage">
-            </form>
-            <div>Icon</div>
-            <div>Display Name</div>
-            <div>Icon</div>
-            <div>Hi there,</div>
-            <div>InsertName</div>
-            <div>(InsertUserName)</div>
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>       
+                <img class="topLineImg" src="./img/bell.png">
+                <img src="./img/coding.png" id="smallIcon">
+                <a>Dylan Leppert</a>
+            </div>
+            <div class="secondLine">
+                <img src="./img/coding.png" id="mainIcon">
+                <div class="intro">
+                    <a id="smallFont">Hi there,</a>
+                    <a id="mainName">Dylan Leppert (@pdlep)</a>
+                </div>
+                <button id="newBtn">New</button>
+                <button id="uploadBtn">Upload</button>
+                <button id="shareBtn">Share</button>  
+            </div>     
         </header>
         <div class="mainPage">
             <div class = "fullGrid">
-                <a class="grid" id="grid1">Project 1</a>
-                <a class="grid" id="grid2">Project 2</a>
-                <a class="grid" id="grid3">Project 3</a>
-                <a class="grid" id="grid4">Project 4</a>
-                <a class="grid" id="grid4">Project 5</a>
-                <a class="grid" id="grid4">Project 6</a>
+                <label class="pageTitle">Your Projects</label>
+                <form class="gridClass" id="grid1">
+                  <h4>Cat in the Hat</h4>
+                  <p>There was a cat in the hat, you know the story</p>  
+                </form>
+                <form class="gridClass" id="grid2">
+                    <h4>Cat in the Hat</h4>
+                    <p>There was a cat in the hat, you know the story</p>  
+                </form>
+                <form class="gridClass" id="grid3">
+                    <h4>Cat in the Hat</h4>
+                    <p>There was a cat in the hat, you know the story</p>  
+                </form>
+                <form class="gridClass" id="grid4">
+                    <h4>Cat in the Hat</h4>
+                    <p>There was a cat in the hat, you know the story</p>  
+                </form>
+                <form class="gridClass" id="grid5">
+                    <h4>Cat in the Hat</h4>
+                    <p>There was a cat in the hat, you know the story</p>  
+                </form>
+                <form class="gridClass" id="grid6">
+                    <h4>Cat in the Hat</h4>
+                    <p>There was a cat in the hat, you know the story</p>  
+                </form>
             </div>
+            <label>Announcements</label>
             <div class="announceBox">
-                <label>Announcements</label>
-                <a>Site Maintenance</a>
-                <a>Community Share Day</a>
-                <a>Updated Privacy Policy</a>
+                <a href="./index.html">Site Maintenance</a>
+                <a href="./index.html">Community Share Day</a>
+                <a href="./index.html">Updated Privacy Policy</a>
             </div>
             <div class="trendingBox">
                 <a>Name One</a>
